@@ -1,6 +1,7 @@
 package home_work_2.arrays;
 
-import java.util.Arrays;
+import home_work_2.utils.ArraysUtils;
+
 import java.util.Scanner;
 
 public class Task2_4 {
@@ -27,7 +28,7 @@ public class Task2_4 {
 
 
     public static void evenAndPositive(String[] args) {
-        int[] container = utils.ArraysUtils.arrayRandom(50, 100);
+        int[] container = ArraysUtils.arrayRandom(50, 100);
         int sum = 0;
         for (int i = 0; i < container.length; i++) {
             int element = container[i];
@@ -40,7 +41,7 @@ public class Task2_4 {
 
 
     public static void max(String[] args) {
-        int[] container = utils.ArraysUtils.arrayRandom(50,100);
+        int[] container = ArraysUtils.arrayRandom(50,100);
         int element = 0;
         int element2 = 0;
         for (int i = 0; i < container.length; i += 2) {
@@ -55,7 +56,7 @@ public class Task2_4 {
 
 
     public static void lessThanMean (String[] args) {
-        int[] container = utils.ArraysUtils.arrayRandom(50,100);
+        int[] container = ArraysUtils.arrayRandom(50,100);
         int sum = 0;
         int mean = 0;
         int element = 0;
@@ -74,7 +75,7 @@ public class Task2_4 {
 
 
     public static void min (String[] args) {
-        int[] container = utils.ArraysUtils.arrayRandom(50,100);
+        int[] container = ArraysUtils.arrayRandom(50,100);
         int min1 = container[0];
         int min2 = container[1];
         for (int i = 2; i < container.length; i++) {
@@ -92,7 +93,7 @@ public class Task2_4 {
 
 
     public static void delete (String[] args) {
-        int[] container = utils.ArraysUtils.arrayRandom(50,100);
+        int[] container = ArraysUtils.arrayRandom(50,100);
         Scanner console = new Scanner(System.in);
         System.out.println("Введите начало диапазона");
         int min = console.nextInt();

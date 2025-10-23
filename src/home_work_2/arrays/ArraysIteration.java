@@ -1,6 +1,7 @@
 package home_work_2.arrays;
 
-import java.util.Arrays;
+import home_work_2.utils.ArraysUtils;
+
 import java.util.Scanner;
 
 public class ArraysIteration {
@@ -20,7 +21,7 @@ public class ArraysIteration {
     }
 
     public static void everyElement(String[] args) {
-        int[] container = utils.ArraysUtils.arrayFromConsole();
+        int[] container = ArraysUtils.arrayFromConsole();
         int i = 0;
 
         do {
@@ -51,7 +52,7 @@ public class ArraysIteration {
         System.out.print("\n------------");
     }
     public static void everySecondElement(String[] args) {
-        int[] container = utils.ArraysUtils.arrayFromConsole();
+        int[] container = ArraysUtils.arrayFromConsole();
         int i = 0;
 
         do {
@@ -78,7 +79,7 @@ public class ArraysIteration {
     }
 
     public static void swap (String[] args) {
-        int[] container = utils.ArraysUtils.arrayFromConsole();
+        int[] container = ArraysUtils.arrayFromConsole();
         int i = container.length - 1;
 
         do {
