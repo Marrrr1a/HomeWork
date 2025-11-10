@@ -14,6 +14,7 @@ public class ArraysUtils {
             System.out.println("Введите элемент массива №" + i);
             result [i] = console1.nextInt();
         }
+//        console.close(); закрыть консоль
         return result;
     }
 
