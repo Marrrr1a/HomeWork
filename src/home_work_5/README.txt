@@ -6,6 +6,9 @@
 Переделанные классы из Дз1 -> package home_work_1 -> package task4_new_version и package task4_new_version
 Тесты к переделанным классам из Дз1 -> package home_work_1 -> package tests
 
+Переделанные классы из Дз2 -> package home_work_2 -> package task1_new_version, package task2_3_new и package task2_3_new_version
+Тесты к переделанным классам из Дз2 -> package home_work_2 -> package tests
+
 
 
 
